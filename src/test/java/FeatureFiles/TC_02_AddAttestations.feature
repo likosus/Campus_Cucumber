@@ -6,18 +6,18 @@ Feature: Attestations functionality
     When Login username and Password and click login button
     Then User should login successfully
 
-  Scenario:Add  Attestations
     And Click on the element in leftNav
       | humanResources |
       | setupHuman     |
       | attestations   |
 
+  Scenario:Add  Attestations
     Then Click on the element in Dialogcontent
       |addButton|
 
 
     And user sending the keys in Dialogcontent
-      |nameInput| violette15|
+      |nameInput| violette17|
 
     And Click on the element in Dialogcontent
       |saveButton|
@@ -25,17 +25,13 @@ Feature: Attestations functionality
     Then Success message should be displayed
 
   Scenario: Negative test
-        # The Attestation with Name "violette11" already exists.
-    And Click on the element in leftNav
-      | humanResources |
-      | setupHuman     |
-      | attestations   |
+
 
     Then Click on the element in Dialogcontent
       |addButton|
 
     When user sending the keys in Dialogcontent
-      |nameInput| violette15|
+      |nameInput| violette17|
 
     And Click on the element in Dialogcontent
       |saveButton|

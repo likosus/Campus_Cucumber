@@ -6,14 +6,15 @@ Feature: Attestations functionality
     When Login username and Password and click login button
     Then User should login successfully
 
-  Scenario:Delete Attestations
     And Click on the element in leftNav
       | humanResources |
       | setupHuman     |
       | attestations   |
 
 
+  Scenario:Delete Attestations
+
  Then user Delete item in Dialogcontent
-   | violette15|
+   | violette13|
 
     Then Success message should be displayed
