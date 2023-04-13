@@ -18,7 +18,7 @@ public class DialogContent extends Parent{
     @FindBy(id="mat-input-1")
     public WebElement password;
 
-    @FindBy(xpath="//span[text()=' GİRİŞ YAP ']")
+    @FindBy(xpath="//span[@class='mat-button-wrapper']")
     public WebElement loginButton;
 
     @FindBy(css="span[class='mat-tooltip-trigger logo-text']")
