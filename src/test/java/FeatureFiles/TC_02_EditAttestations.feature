@@ -6,16 +6,15 @@ Feature: Attestations functionality
     When Login username and Password and click login button
     Then User should login successfully
 
-  Scenario: Edit Attestations
     And Click on the element in leftNav
       | humanResources |
       | setupHuman     |
       | attestations   |
 
-
+  Scenario: Edit Attestations
 
     And user sending the keys in Dialogcontent
-      |searchInput| violette15|
+      |searchInput| violette17|
 
     And Click on the element in Dialogcontent
       |searchBttn|
