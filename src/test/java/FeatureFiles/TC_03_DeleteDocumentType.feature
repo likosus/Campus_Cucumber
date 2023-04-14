@@ -18,3 +18,16 @@ Feature: document type functionality
       | Aci yok Rocky|
 
     Then Success message should be displayed
+
+  Scenario: Negative test
+
+
+    Then user sending the keys in Dialogcontent
+      |searchInput|Aci yok Rocky|
+
+
+    And Click on the element in Dialogcontent
+      |searchBttn|
+
+
+    Then is no data message should be displayed
