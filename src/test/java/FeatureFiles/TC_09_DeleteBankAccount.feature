@@ -15,3 +15,17 @@ Feature: Bank account functionality
       | violette1|
 
     When Success message should be displayed
+
+
+  Scenario: Negative test
+
+
+    Then user sending the keys in Dialogcontent
+      |searchInput| violette1|
+
+
+    And Click on the element in Dialogcontent
+      |searchBttn|
+
+
+    Then is no data message should be displayed
