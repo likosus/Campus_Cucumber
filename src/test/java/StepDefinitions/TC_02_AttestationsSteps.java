@@ -70,7 +70,8 @@ public class TC_02_AttestationsSteps {
 
     @Then("Success message should be displayed")
     public void successMessageShouldBeDisplayed() {
-        dc.verifyContainsTextFunction(dc.successMessage,"success");
+
+        dc.verifyContainsTextFunction(dc.successMessage,"successfully");
     }
 
     @Then("user Delete item in Dialogcontent")
