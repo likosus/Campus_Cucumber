@@ -18,3 +18,17 @@ Feature: Attestations functionality
    | violette13|
 
     Then Success message should be displayed
+
+
+  Scenario: Negative test
+
+
+    Then user sending the keys in Dialogcontent
+      |searchInput| violette13|
+
+
+    And Click on the element in Dialogcontent
+      |searchBttn|
+
+
+    Then is no data message should be displayed
