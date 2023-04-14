@@ -78,6 +78,13 @@ public class DialogContent extends Parent{
     @FindBy(xpath="//span[text()='None']") // ->burada tam alamadım  locatorı
     public WebElement selectGrade;
 
+    @FindBy(xpath="(//span[text()='Stage'])[3]")
+    public WebElement DTstage;
+
+    @FindBy(xpath="//span[text()=' Student Registration ']")
+    public WebElement DTsecondstage;
+
+
 
 
 
@@ -120,6 +127,8 @@ public class DialogContent extends Parent{
             case "shortName" : return shortName;
             case "orderNumber" : return orderNumber;
             case "selectGrade" : return selectGrade;
+            case "DTstage":return DTstage;
+            case "DTsecondstage":return DTsecondstage;
 
 
         }
