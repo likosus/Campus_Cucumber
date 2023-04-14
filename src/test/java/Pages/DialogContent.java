@@ -84,6 +84,9 @@ public class DialogContent extends Parent{
     @FindBy(xpath="//span[text()=' Student Registration ']")
     public WebElement DTsecondstage;
 
+    @FindBy(xpath="//div[text()=' There is no data to display ']")
+    public WebElement isNoData;
+
 
 
 

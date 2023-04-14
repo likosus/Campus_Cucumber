@@ -12,9 +12,24 @@ Feature: Attestations functionality
       | positionCategories   |
 
 
+
   Scenario:Delete Attestations
 
  Then user Delete item in Dialogcontent
-   | kadirCaglar|
+   | caglar|
 
     Then Success message should be displayed
+
+
+  Scenario: Negative test
+
+
+    Then user sending the keys in Dialogcontent
+      |searchInput|caglar|
+
+
+    And Click on the element in Dialogcontent
+      |searchBttn|
+
+
+    Then is no data message should be displayed
