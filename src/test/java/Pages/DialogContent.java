@@ -68,7 +68,6 @@ public class DialogContent extends Parent{
     @FindBy(xpath="//div[@id='mat-select-value-11']") //!!!!!BUnda da var bişeyler
     public WebElement currencySerch;
 
-
     @FindBy(xpath="//ms-text-field[@formcontrolname='shortName']/input")
     public WebElement shortName;
 
@@ -86,6 +85,34 @@ public class DialogContent extends Parent{
 
     @FindBy(xpath="//div[text()=' There is no data to display ']")
     public WebElement isNoData;
+
+    @FindBy(xpath="//div[text()='There is already Department with \"kadir\" name!']")
+    public WebElement thereIsAlready;
+
+    @FindBy(xpath="//span[text()=' Delete ']")
+    public WebElement deleteButton3;
+
+    @FindBy(xpath="//div[text()='School Department successfully deleted']")
+    public WebElement departmentSuccessfullyDeleted;
+    @FindBy(xpath="//input[@id='ms-text-field-1']")
+    public WebElement codeInput;
+
+    @FindBy(xpath="(//ms-edit-button//button)[3]")
+    public WebElement editButton2;
+
+    @FindBy(xpath="(//ms-delete-button//button)[3]")
+    public WebElement deleteButton2;
+
+    @FindBy(xpath="//dynamic-view[@class='ng-star-inserted']")
+    public WebElement deleteKadir;
+
+
+
+
+
+
+
+
 
 
 
@@ -113,6 +140,11 @@ public class DialogContent extends Parent{
             case "selectGrade" : return selectGrade;
             case "DTstage":return DTstage;
             case "DTsecondstage":return DTsecondstage;
+            case "codeInput" : return codeInput;
+            case "editButton2" : return editButton2;
+            case "deleteButton2" : return deleteButton2;
+            case "deleteButton3" : return deleteButton3;
+
 
 
         }
@@ -132,14 +164,6 @@ public class DialogContent extends Parent{
         clickFunction(deleteDialogBtn); // ->sil dialog kutusu çıkan yer
     }
 }
-
-
-
-
-
-
-
-
 
 
 

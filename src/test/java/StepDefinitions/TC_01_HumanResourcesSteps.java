@@ -4,7 +4,7 @@ import Pages.DialogContent;
 import Pages.LeftNav;
 import io.cucumber.java.en.Then;
 
-public class TC_01_HumanResources {
+public class TC_01_HumanResourcesSteps {
 
     LeftNav ln=new LeftNav();
     DialogContent dc=new DialogContent();
