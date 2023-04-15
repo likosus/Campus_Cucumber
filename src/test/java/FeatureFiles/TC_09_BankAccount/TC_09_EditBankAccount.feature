@@ -13,8 +13,6 @@ Feature: Bank account functionality
     And user sending the keys in Dialogcontent nine
       |searchInput| violette8|
 
-
-
     And Click on the element in Dialogcontent nine
       |searchBttn|
       |editButton|
