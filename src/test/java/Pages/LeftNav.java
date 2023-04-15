@@ -83,6 +83,7 @@ public class LeftNav extends Parent{
             case "gradeLevels" : return gradeLevels;
             case "documentTypes":return documentTypes;
             case "positionCategories" : return positionsCategories;
+            case"positions":return positions;
 
         }
 
