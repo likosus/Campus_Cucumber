@@ -38,7 +38,7 @@ public class LeftNav extends Parent{
     @FindBy(xpath = "//span[text()='Education']")
     public WebElement education;
 
-    @FindBy(xpath = "//span[text()='Setup'][@class='nav-link-title ng-tns-c111-103 ng-star-inserted']")
+    @FindBy(xpath = "//span[@class='nav-link-title ng-tns-c111-24 ng-star-inserted']")
     public WebElement educationSetup;
 
     @FindBy(xpath = " //span[text()='Subject Categories']")
@@ -47,7 +47,7 @@ public class LeftNav extends Parent{
     @FindBy(xpath = "  //span[text()='Fields']")
     public WebElement fields;
 
-    @FindBy(xpath = "//span[contains(text(),'Document Types')]")
+    @FindBy(xpath = "//span[text()='Document Types']")
     public WebElement documentTypes;
 
     @FindBy(xpath = "//span[text()='Position Categories']")
@@ -81,7 +81,10 @@ public class LeftNav extends Parent{
             case "parameters" : return parameters;
             case "bankAccounts" : return bankAccounts;
             case "gradeLevels" : return gradeLevels;
-            case "documentTypes":return documentTypes;
+            case "education" : return education;
+            case "educationSetup" : return educationSetup;
+            case "subjectCategories" : return subjectCategories;
+
             case "positionCategories" : return positionsCategories;
             case"positions":return positions;
             case "schoolSetup" : return schoolSetup;
