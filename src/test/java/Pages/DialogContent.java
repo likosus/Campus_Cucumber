@@ -118,6 +118,24 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//td[text()='teacher']")
     public WebElement kadirEdit2;
 
+    @FindBy(xpath = "//span[text()='Classroom']")
+    public  WebElement locationType;
+
+    @FindBy(xpath = "//span[text()='Classroom']")
+    public WebElement locationSelection;
+
+    @FindBy(xpath = "//input[@id='ms-integer-field-0']")
+    public WebElement capacity;
+
+    @FindBy(xpath = "//td[text()='alper']")
+    public WebElement editButtonAlper;
+
+    @FindBy(xpath = "//td[text()='alperyeni']/following-sibling::td[5]//ms-delete-button//button")
+    public WebElement deleteButtonAlper;
+
+    @FindBy(xpath = "//tbody//tr[1]//td[contains(text(),'alperyeni')]")
+    public WebElement verifyAlper;
+
 
 
 
@@ -154,11 +172,17 @@ public class DialogContent extends Parent{
             case "codeInput" : return codeInput;
             case "editButton2" : return editButton2;
             case "kadirdeleteButton" : return kadirdeleteButton;
-            case "deleteButton3" : return deleteButton3;
             case "nextGrade":return nextGrade;
             case "nextGrade1":return nextGrade1;
             case "kadirEdit" : return kadirEdit;
             case "kadirEdit2" : return kadirEdit2;
+            case "locationType" : return locationType;
+            case "capacity" : return capacity;
+            case "deleteButton3" : return deleteButton3;
+            case "locationSelection" : return locationSelection;
+            case "editButtonAlper" : return editButtonAlper;
+            case "deleteButtonAlper" : return deleteButtonAlper;
+            case "verifyAlper" : return verifyAlper;
 
 
         }
