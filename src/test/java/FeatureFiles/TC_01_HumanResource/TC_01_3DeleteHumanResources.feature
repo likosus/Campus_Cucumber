@@ -12,7 +12,7 @@ Feature: Attestations functionality
       | positionCategories |
 
 
-  Scenario:Delete Attestations
+  Scenario:Delete HumanResources
 
     Then user Delete item in Dialogcontent
       | manager |

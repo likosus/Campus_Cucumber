@@ -11,7 +11,7 @@ Feature: Subject Category
       | educationSetup    |
       | subjectCategories |
 
-  Scenario:Add  Attestations
+  Scenario:Add  subjectCategories
     Then Click on the element in Dialogcontent
       |addButton|
 

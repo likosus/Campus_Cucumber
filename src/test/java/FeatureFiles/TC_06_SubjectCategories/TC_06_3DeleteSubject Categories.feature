@@ -12,7 +12,7 @@ Feature: Subject Category
       | subjectCategories  |
 
 
-  Scenario:Delete Attestations
+  Scenario:Delete subjectCategories
 
     Then user Delete item in Dialogcontent
       | violette13|
