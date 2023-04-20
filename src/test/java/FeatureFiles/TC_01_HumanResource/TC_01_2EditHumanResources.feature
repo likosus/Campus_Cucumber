@@ -11,7 +11,7 @@ Feature: Attestations functionality
       | setupHuman         |
       | positionCategories |
 
-  Scenario: Edit Attestations
+  Scenario: Edit HumanResources
 
     And user sending the keys in Dialogcontent
       | searchInput | teacher |

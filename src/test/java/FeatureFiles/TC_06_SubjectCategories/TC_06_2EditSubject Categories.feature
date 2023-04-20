@@ -11,7 +11,7 @@ Feature: Subject Category
       | educationSetup   |
       | subjectCategories  |
 
-  Scenario: Edit Attestations
+  Scenario: Edit subjectCategories
 
     And user sending the keys in Dialogcontent
       |searchInput| violette17|

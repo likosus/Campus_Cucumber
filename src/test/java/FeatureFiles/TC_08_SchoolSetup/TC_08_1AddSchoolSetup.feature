@@ -12,7 +12,7 @@ Feature:
       | schoolSetup |
       | departments |
 
-  Scenario:Add  Attestations
+  Scenario:Add  schoolSetup
     Then Click on the element in Dialogcontent
       | addButton |
 

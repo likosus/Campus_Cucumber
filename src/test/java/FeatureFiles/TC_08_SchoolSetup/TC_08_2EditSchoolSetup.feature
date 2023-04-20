@@ -11,7 +11,7 @@ Feature: Attestations functionality
       | schoolSetup |
       | departments |
 
-  Scenario: Edit Attestations
+  Scenario: Edit schoolSetup
     And Click on the element in Dialogcontent
       | kadirEdit |
 

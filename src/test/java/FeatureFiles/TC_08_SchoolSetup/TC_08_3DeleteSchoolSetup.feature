@@ -12,7 +12,7 @@ Feature: Attestations functionality
       | departments |
 
 
-  Scenario:Delete Attestations
+  Scenario:Delete schoolSetup
 
     Then Click on the element in Dialogcontent
       | kadirdeleteButton |

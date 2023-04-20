@@ -12,7 +12,7 @@ Feature:
       | setupHuman         |
       | positionCategories |
 
-  Scenario:Add  Attestations
+  Scenario:Add  HumanResources
     Then Click on the element in Dialogcontent
       | addButton |
 
