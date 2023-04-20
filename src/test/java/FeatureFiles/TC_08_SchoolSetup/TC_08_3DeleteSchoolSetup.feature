@@ -11,14 +11,12 @@ Feature: Attestations functionality
       | schoolSetup |
       | departments |
 
-  Scenario: Edit Attestations
 
-    And Click on the element in Dialogcontent
-      | editButton2 |
+  Scenario:Delete Attestations
 
-    And user sending the keys in Dialogcontent
-      | nameInput | kadirD |
-      | codeInput | 5561   |
+    Then Click on the element in Dialogcontent
+      | kadirdeleteButton |
+      | deleteButton3 |
 
-    And Click on the element in Dialogcontent
-      | saveButton |
+
+    Then School Department successfully deleted

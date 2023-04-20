@@ -89,9 +89,6 @@ public class DialogContent extends Parent{
     @FindBy(xpath="//div[text()='There is already Department with \"kadir\" name!']")
     public WebElement thereIsAlready;
 
-    @FindBy(xpath="//span[text()=' Delete ']")
-    public WebElement deleteButton3;
-
     @FindBy(xpath="//div[text()='School Department successfully deleted']")
     public WebElement departmentSuccessfullyDeleted;
     @FindBy(xpath="//input[@id='ms-text-field-1']")
@@ -100,17 +97,26 @@ public class DialogContent extends Parent{
     @FindBy(xpath="(//ms-edit-button//button)[3]")
     public WebElement editButton2;
 
-    @FindBy(xpath="(//ms-delete-button//button)[3]")
-    public WebElement deleteButton2;
+    @FindBy(xpath="//td[text()='graphic']/following-sibling::td[3]//ms-delete-button")
+    public WebElement kadirdeleteButton;
+
+    @FindBy(xpath="//span[text()=' Delete ']")
+    public WebElement deleteButton3;
 
     @FindBy(xpath="//dynamic-view[@class='ng-star-inserted']")
-    public WebElement deleteKadir;
+    public WebElement deleteKadirdogrulama;
 
     @FindBy(xpath = "//div[@id='mat-select-value-5']")
     public WebElement nextGrade;
 
     @FindBy(xpath = "//span[text()='12. Sinif']")
     public WebElement nextGrade1;
+
+    @FindBy(xpath = "//td[text()='economy']/following-sibling::td[3]//ms-edit-button")
+    public WebElement kadirEdit;
+
+    @FindBy(xpath = "//td[text()='teacher']")
+    public WebElement kadirEdit2;
 
 
 
@@ -147,11 +153,12 @@ public class DialogContent extends Parent{
             case "DTsecondstage":return DTsecondstage;
             case "codeInput" : return codeInput;
             case "editButton2" : return editButton2;
-            case "deleteButton2" : return deleteButton2;
+            case "kadirdeleteButton" : return kadirdeleteButton;
             case "deleteButton3" : return deleteButton3;
             case "nextGrade":return nextGrade;
             case "nextGrade1":return nextGrade1;
-
+            case "kadirEdit" : return kadirEdit;
+            case "kadirEdit2" : return kadirEdit2;
 
 
         }
