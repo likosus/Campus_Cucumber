@@ -9,6 +9,5 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"StepDefinitions"}
         //plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-
 public class RunTest extends AbstractTestNGCucumberTests {
 }
