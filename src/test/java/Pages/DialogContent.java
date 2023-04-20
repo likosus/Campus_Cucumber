@@ -106,6 +106,11 @@ public class DialogContent extends Parent{
     @FindBy(xpath="//dynamic-view[@class='ng-star-inserted']")
     public WebElement deleteKadir;
 
+    @FindBy(xpath = "//div[@id='mat-select-value-5']")
+    public WebElement nextGrade;
+
+    @FindBy(xpath = "//span[text()='12. Sinif']")
+    public WebElement nextGrade1;
 
 
 
@@ -144,6 +149,8 @@ public class DialogContent extends Parent{
             case "editButton2" : return editButton2;
             case "deleteButton2" : return deleteButton2;
             case "deleteButton3" : return deleteButton3;
+            case "nextGrade":return nextGrade;
+            case "nextGrade1":return nextGrade1;
 
 
 
