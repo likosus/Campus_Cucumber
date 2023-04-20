@@ -136,6 +136,21 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//tbody//tr[1]//td[contains(text(),'alperyeni')]")
     public WebElement verifyAlper;
 
+    @FindBy(xpath="//ms-text-field[@placeholder='DISCOUNT.TITLE.DESCRIPTION']//input")
+    public WebElement description2;
+
+
+    @FindBy(xpath="//ms-integer-field[@formcontrolname='priority']//input")
+    public WebElement priority;
+
+    @FindBy(xpath="//td[text()='deva1']/following-sibling::td[4]//ms-delete-button")
+    public WebElement deleteHacer;
+
+    @FindBy(xpath="//ms-text-field[@formcontrolname='description']//input")
+    public WebElement description;
+
+
+
 
 
 
@@ -183,7 +198,10 @@ public class DialogContent extends Parent{
             case "editButtonAlper" : return editButtonAlper;
             case "deleteButtonAlper" : return deleteButtonAlper;
             case "verifyAlper" : return verifyAlper;
-
+            case"description":return description;
+            case"description2":return description2;
+            case"priority":return priority;
+            case"deleteHacer":return deleteHacer;
 
         }
 
