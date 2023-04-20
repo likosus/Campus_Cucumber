@@ -12,7 +12,7 @@ Feature: Bank account functionality
   Scenario: Delete Bank account
 
     Then user Delete item in Dialogcontent nine
-      | violette1|
+      | 2violette|
 
     When Success message should be displayed
 
@@ -21,7 +21,7 @@ Feature: Bank account functionality
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput| violette1|
+      |searchInput| 2violette|
 
 
     And Click on the element in Dialogcontent

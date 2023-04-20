@@ -10,7 +10,7 @@ Then User should login successfully
     | parameters     |
     | documentTypes   |
 
-Scenario:
+Scenario: Add documentTypes
     When Click on the element in Dialogcontent
 
       | addButton |
@@ -28,5 +28,7 @@ Scenario:
 
      When Click on the element in Dialogcontent
       | saveButton |
+
+
 
 

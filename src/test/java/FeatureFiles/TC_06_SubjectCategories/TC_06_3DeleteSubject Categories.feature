@@ -7,15 +7,15 @@ Feature: Subject Category
     Then User should login successfully
 
     And Click on the element in leftNav
-      | education|
-      | educationSetup   |
-      | subjectCategories  |
+      | education         |
+      | educationSetup    |
+      | subjectCategories |
 
 
   Scenario:Delete subjectCategories
 
     Then user Delete item in Dialogcontent
-      | violette13|
+      | fatihSultan |
 
     Then Success message should be displayed
 
@@ -23,11 +23,11 @@ Feature: Subject Category
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput|violette13|
+      | searchInput | fatihSultan |
 
 
     And Click on the element in Dialogcontent
-      |searchBttn|
+      | searchBttn |
 
 
     Then is no data message should be displayed

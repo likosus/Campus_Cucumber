@@ -19,6 +19,8 @@ Feature: Positions functionality
 
     And Click on the element in Dialogcontent
       |searchBttn|
+
+    And Click on the element in Dialogcontent
       |editButton|
 
 

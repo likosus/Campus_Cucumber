@@ -7,8 +7,8 @@ Feature: Discounts
     Then User should login successfully
 
     And Click on the element in leftNav
-      | setup|
-      | parameters  |
+      | setup      |
+      | parameters |
       | discounts  |
 
 
@@ -26,11 +26,11 @@ Feature: Discounts
 
 
     Then user sending the keys in Dialogcontent
-      |description2|deva2|
+      | description2 | deva2 |
 
 
     And Click on the element in Dialogcontent
-      |searchBttn|
+      | searchBttn |
 
 
     Then is no data message should be displayed

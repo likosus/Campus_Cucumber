@@ -9,7 +9,7 @@ Feature: Positions functionality
 
     And Click on the element in leftNav
       | humanResources |
-      | setupHuman         |
+      | setupHuman     |
       | positions      |
 
   Scenario:Add  Positions
@@ -19,8 +19,8 @@ Feature: Positions functionality
 
 
     And user sending the keys in Dialogcontent
-      | nameInput | deva2 |
-    |shortName  |dv    |
+      | nameInput | deva |
+      | shortName | dv   |
 
     And Click on the element in Dialogcontent
       | saveButton |
@@ -34,8 +34,8 @@ Feature: Positions functionality
       | addButton |
 
     When user sending the keys in Dialogcontent
-      | nameInput | Deva2 |
-    |shortName  |dv    |
+      | nameInput | deva |
+      | shortName | dv   |
 
     And Click on the element in Dialogcontent
       | saveButton |

@@ -7,21 +7,21 @@ Feature: Subject Category
     Then User should login successfully
 
     And Click on the element in leftNav
-      | education |
+      | education         |
       | educationSetup    |
       | subjectCategories |
 
   Scenario:Add  subjectCategories
     Then Click on the element in Dialogcontent
-      |addButton|
+      | addButton |
 
 
     And user sending the keys in Dialogcontent
-      |nameInput| violette17|
-    |integrationCode| enes42|
+      | nameInput       | Fatih42 |
+      | integrationCode | tesla   |
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |
 
     Then Success message should be displayed
 
@@ -29,14 +29,14 @@ Feature: Subject Category
 
 
     Then Click on the element in Dialogcontent
-      |addButton|
+      | addButton |
 
     When user sending the keys in Dialogcontent
-      |nameInput| violette17|
-    |integrationCode| enes42|
+      | nameInput       | Fatih42 |
+      | integrationCode | tesla   |
 
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |
 
     Then Already exist message should be displayed

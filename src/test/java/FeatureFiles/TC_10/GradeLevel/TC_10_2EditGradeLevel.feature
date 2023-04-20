@@ -1,4 +1,5 @@
 Feature:
+
   Background:
     Given Navigate to Campus
     When Login username and Password and click login button
@@ -6,22 +7,22 @@ Feature:
 
 
     And Click on the element in leftNav
-      | setup |
-      | parameters     |
-      |  gradeLevels   |
+      | setup       |
+      | parameters  |
+      | gradeLevels |
 
   Scenario:
 
     When Click on the element in Dialogcontent
 
-      | delete |
+      | likosEdit |
 
     And user sending the keys in Dialogcontent
-      |nameInput| 14.Sinif|
-      |shortName| 14TM|
-      |orderNumber| 2|
+      | nameInput   | 15.Sinif |
+      | shortName   | 15TM     |
+      | orderNumber | 5        |
 
     When clickdown
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |

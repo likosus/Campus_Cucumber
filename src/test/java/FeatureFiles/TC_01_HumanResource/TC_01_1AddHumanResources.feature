@@ -18,7 +18,7 @@ Feature:
 
 
     And user sending the keys in Dialogcontent
-      | nameInput | teacher |
+      | nameInput | kadir |
 
     And Click on the element in Dialogcontent
       | saveButton |
@@ -32,7 +32,7 @@ Feature:
       | addButton |
 
     When user sending the keys in Dialogcontent
-      | nameInput | teacher |
+      | nameInput | kadir |
 
     And Click on the element in Dialogcontent
       | saveButton |

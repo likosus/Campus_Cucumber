@@ -10,7 +10,7 @@ Feature:
       | parameters     |
       | documentTypes   |
 
-  Scenario:
+  Scenario: Edit documentTypes
     When user sending the keys in Dialogcontent
 
       | searchInput | Aci yok rocky |

@@ -115,7 +115,7 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//td[text()='economy']/following-sibling::td[3]//ms-edit-button")
     public WebElement kadirEdit;
 
-    @FindBy(xpath = "//td[text()='teacher']")
+    @FindBy(xpath = "//td[text()='teacher']/following-sibling::td[1]//ms-edit-button")
     public WebElement kadirEdit2;
 
     @FindBy(xpath = "//span[text()='Classroom']")
@@ -148,6 +148,15 @@ public class DialogContent extends Parent{
 
     @FindBy(xpath="//ms-text-field[@formcontrolname='description']//input")
     public WebElement description;
+
+    @FindBy(xpath="//td[text()='violette17']/following-sibling::td[1]//ms-edit-button")
+    public WebElement rumeysaEdit;
+
+    @FindBy(xpath="//td[text()='10.Sinif']/following-sibling::td[5]//ms-edit-button")
+    public WebElement likosEdit;
+
+    @FindBy(xpath="//td[text()='15.Sinif']/following-sibling::td[5]//ms-delete-button")
+    public WebElement likosDelete;
 
 
 
@@ -202,6 +211,9 @@ public class DialogContent extends Parent{
             case"description2":return description2;
             case"priority":return priority;
             case"deleteHacer":return deleteHacer;
+            case"rumeysaEdit" : return rumeysaEdit;
+            case"likosEdit" : return likosEdit;
+            case"likosDelete" : return likosDelete;
 
         }
 
