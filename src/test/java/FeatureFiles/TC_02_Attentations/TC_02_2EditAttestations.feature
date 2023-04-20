@@ -18,8 +18,9 @@ Feature: Attestations functionality
 
     And Click on the element in Dialogcontent
       |searchBttn|
-      |editButton|
 
+    And Click on the element in Dialogcontent
+      |rumeysaEdit|
 
     And user sending the keys in Dialogcontent
       |nameInput| violette13|

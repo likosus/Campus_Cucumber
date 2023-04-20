@@ -15,7 +15,7 @@ Feature: document type functionality
     Scenario:Delete document type
 
     Then user Delete item in Dialogcontent
-      | Aci yok Rocky|
+      | Aci var Rocky|
 
     Then Success message should be displayed
 
@@ -23,7 +23,7 @@ Feature: document type functionality
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput|Aci yok Rocky|
+      |searchInput|Aci var Rocky|
 
 
     And Click on the element in Dialogcontent

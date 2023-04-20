@@ -7,24 +7,26 @@ Feature: Subject Category
     Then User should login successfully
 
     And Click on the element in leftNav
-      | education |
-      | educationSetup   |
-      | subjectCategories  |
+      | education         |
+      | educationSetup    |
+      | subjectCategories |
 
   Scenario: Edit subjectCategories
 
     And user sending the keys in Dialogcontent
-      |searchInput| violette17|
+      | searchInput | Fatih42 |
 
 
     And Click on the element in Dialogcontent
-      |searchBttn|
-      |editButton|
+      | searchBttn |
+
+    And Click on the element in Dialogcontent
+      | editButton |
 
 
     And user sending the keys in Dialogcontent
-      |nameInput| violette13|
+      | nameInput | fatihSultan |
     #|integrationCode| enes13|
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |

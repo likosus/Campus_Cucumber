@@ -16,7 +16,7 @@ Feature: Positions functionality
   Scenario:Delete Positions
 
     Then user Delete item in Dialogcontent
-      | deva|
+      | deva2|
 
     Then Success message should be displayed
 
@@ -25,7 +25,7 @@ Feature: Positions functionality
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput|deva|
+      |searchInput|deva2|
 
 
     And Click on the element in Dialogcontent

@@ -11,14 +11,16 @@ Feature: Bank account functionality
 
   Scenario: Edit bank accounts
     And user sending the keys in Dialogcontent nine
-      |searchInput| violette8|
+      |searchInput| 1violette|
 
     And Click on the element in Dialogcontent nine
       |searchBttn|
+
+    And Click on the element in Dialogcontent nine
       |editButton|
 
     And user sending the keys in Dialogcontent nine
-      |nameInput| violette9|
+      |nameInput| 2violette|
 
     And Click on the element in Dialogcontent nine
       |saveButton|
