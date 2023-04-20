@@ -7,16 +7,15 @@ Feature: Attestations functionality
     Then User should login successfully
 
     And Click on the element in leftNav
-      | humanResources |
-      | setupHuman     |
-      | positionCategories   |
-
+      | humanResources     |
+      | setupHuman         |
+      | positionCategories |
 
 
   Scenario:Delete Attestations
 
- Then user Delete item in Dialogcontent
-   | caglar|
+    Then user Delete item in Dialogcontent
+      | manager |
 
     Then Success message should be displayed
 
@@ -25,11 +24,11 @@ Feature: Attestations functionality
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput|caglar|
+      | searchInput | manager |
 
 
     And Click on the element in Dialogcontent
-      |searchBttn|
+      | searchBttn |
 
 
     Then is no data message should be displayed

@@ -7,22 +7,23 @@ Feature: Attestations functionality
     Then User should login successfully
 
     And Click on the element in leftNav
-      | humanResources |
-      | setupHuman     |
+      | humanResources     |
+      | setupHuman         |
       | positionCategories |
 
   Scenario: Edit Attestations
 
     And user sending the keys in Dialogcontent
-      |searchInput| caglar|
+      | searchInput | teacher |
 
     And Click on the element in Dialogcontent
-      |searchBttn|
-      |editButton|
+      | searchBttn |
 
+    And Click on the element in Dialogcontent
+      | kadirEdit2 |
 
     And user sending the keys in Dialogcontent
-      |nameInput| kadirCaglar|
+      | nameInput | manager |
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |

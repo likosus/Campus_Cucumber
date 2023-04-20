@@ -8,21 +8,20 @@ Feature:
 
 
     And Click on the element in leftNav
-      | setup       |
-      | schoolSetup |
-      | departments |
+      | humanResources     |
+      | setupHuman         |
+      | positionCategories |
 
   Scenario:Add  Attestations
     Then Click on the element in Dialogcontent
-      | addButton |
+      |addButton|
 
 
     And user sending the keys in Dialogcontent
-      | nameInput | kadir |
-      | codeInput | 055   |
+      |nameInput| teacher|
 
     And Click on the element in Dialogcontent
-      | saveButton |
+      |saveButton|
 
     Then Success message should be displayed
 
@@ -30,21 +29,15 @@ Feature:
 
 
     Then Click on the element in Dialogcontent
-      | addButton |
+      |addButton|
 
     When user sending the keys in Dialogcontent
-      | nameInput | kadir |
-      | codeInput | 055   |
+      |nameInput|teacher|
 
     And Click on the element in Dialogcontent
-      | saveButton |
+      |saveButton|
 
-    Then deletedKadir
-
-
-
-
-
+    Then Already exist message should be displayed
 
 
 
