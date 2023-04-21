@@ -8,6 +8,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
 public class TC_09_BankAccountSteps {
@@ -53,5 +55,19 @@ public class TC_09_BankAccountSteps {
         for (String searchText: Buttons) {
             dc.deleteItem(searchText);
         }
+    }
+
+    @And("click the edit buttonBankAccounts")
+    public void clickTheEditButtonBankAccounts() throws AWTException {
+        Robot rbt= new Robot();
+
+        for (int i = 0; i < 9 ; i++) {
+
+            rbt.keyPress(KeyEvent.VK_TAB);
+            rbt.keyRelease(KeyEvent.VK_TAB);
+        }
+
+        rbt.keyPress(KeyEvent.VK_ENTER);
+        rbt.keyRelease(KeyEvent.VK_ENTER);
     }
 }

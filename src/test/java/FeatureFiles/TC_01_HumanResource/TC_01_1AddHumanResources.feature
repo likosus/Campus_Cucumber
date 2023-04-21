@@ -6,7 +6,6 @@ Feature:
     When Login username and Password and click login button
     Then User should login successfully
 
-
     And Click on the element in leftNav
       | humanResources     |
       | setupHuman         |
@@ -18,7 +17,7 @@ Feature:
 
 
     And user sending the keys in Dialogcontent
-      | nameInput | kadir |
+      | nameInput | teacher |
 
     And Click on the element in Dialogcontent
       | saveButton |
@@ -32,7 +31,7 @@ Feature:
       | addButton |
 
     When user sending the keys in Dialogcontent
-      | nameInput | kadir |
+      | nameInput | teacher |
 
     And Click on the element in Dialogcontent
       | saveButton |

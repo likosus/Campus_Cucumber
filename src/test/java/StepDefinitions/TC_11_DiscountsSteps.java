@@ -1,6 +1,7 @@
 package StepDefinitions;
 
 import Pages.DialogContent;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -32,4 +33,20 @@ public class TC_11_DiscountsSteps {
 
 
     }
+
+    @And("click the edit button")
+    public void clickTheEditButton() throws AWTException {
+
+        Robot rbt= new Robot();
+
+        for (int i = 0; i < 9 ; i++) {
+
+            rbt.keyPress(KeyEvent.VK_TAB);
+            rbt.keyRelease(KeyEvent.VK_TAB);
+        }
+
+        rbt.keyPress(KeyEvent.VK_ENTER);
+        rbt.keyRelease(KeyEvent.VK_ENTER);
+    }
+
 }

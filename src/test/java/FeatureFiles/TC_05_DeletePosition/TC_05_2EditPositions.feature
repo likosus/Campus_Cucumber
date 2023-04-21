@@ -20,8 +20,7 @@ Feature: Positions functionality
     And Click on the element in Dialogcontent
       |searchBttn|
 
-    And Click on the element in Dialogcontent
-      |editButton|
+    And click the edit buttonPositions
 
 
     And user sending the keys in Dialogcontent

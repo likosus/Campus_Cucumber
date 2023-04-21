@@ -15,7 +15,7 @@ Feature: Bank account functionality
       |addButton|
 
     When user sending the keys in Dialogcontent nine
-      |nameInput| 1violette|
+      |nameInput| violette|
       |ibanInput| 54321|
 
     And Click on the element in Dialogcontent nine
@@ -37,7 +37,7 @@ Feature: Bank account functionality
       |addButton|
 
     When user sending the keys in Dialogcontent nine
-      |nameInput| 1violette|
+      |nameInput| violette|
       |ibanInput| 54321|
 
     And Click on the element in Dialogcontent nine

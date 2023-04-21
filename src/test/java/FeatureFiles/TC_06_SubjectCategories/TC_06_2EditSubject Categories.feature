@@ -16,17 +16,14 @@ Feature: Subject Category
     And user sending the keys in Dialogcontent
       | searchInput | Fatih42 |
 
-
     And Click on the element in Dialogcontent
       | searchBttn |
 
-    And Click on the element in Dialogcontent
-      | editButton |
+    And click the edit buttonSebject
 
 
     And user sending the keys in Dialogcontent
       | nameInput | fatihSultan |
-    #|integrationCode| enes13|
 
     And Click on the element in Dialogcontent
       | saveButton |

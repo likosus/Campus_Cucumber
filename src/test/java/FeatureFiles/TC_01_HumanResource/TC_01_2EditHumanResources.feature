@@ -14,13 +14,12 @@ Feature: Attestations functionality
   Scenario: Edit HumanResources
 
     And user sending the keys in Dialogcontent
-      | searchInput | kadir |
+      | searchInput | teacher |
 
     And Click on the element in Dialogcontent
       | searchBttn |
 
-    And Click on the element in Dialogcontent
-      | editButton |
+    And Click the edit button
 
     And user sending the keys in Dialogcontent
       | nameInput | manager |

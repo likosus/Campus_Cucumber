@@ -17,9 +17,6 @@ Feature: Discounts
     Then user Delete discounts
 
 
-  # When Click TAP and return main
-
-
     Then Success message should be displayed
 
   Scenario: Negative test

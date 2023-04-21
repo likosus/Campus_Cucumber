@@ -13,14 +13,14 @@ Feature: Attestations functionality
 
   Scenario:Add  Attestations
     Then Click on the element in Dialogcontent
-      |addButton|
+      | addButton |
 
 
     And user sending the keys in Dialogcontent
-      |nameInput| violette17|
+      | nameInput | violette |
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |
 
     Then Success message should be displayed
 
@@ -28,12 +28,12 @@ Feature: Attestations functionality
 
 
     Then Click on the element in Dialogcontent
-      |addButton|
+      | addButton |
 
     When user sending the keys in Dialogcontent
-      |nameInput| violette17|
+      | nameInput | violette |
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |
 
     Then Already exist message should be displayed

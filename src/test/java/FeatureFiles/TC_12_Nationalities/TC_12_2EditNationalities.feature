@@ -8,23 +8,22 @@ Feature:
 
 
     And Click on the element in leftNav
-      | setup           |
-      | parameters      |
-      | nationalities   |
+      | setup         |
+      | parameters    |
+      | nationalities |
 
   Scenario: Edit Nationalities
 
     And user sending the keys in Dialogcontent
-      |searchInput| alperistanlı |
+      | searchInput | alperistanli |
 
     And Click on the element in Dialogcontent
-      |searchBttn|
+      | searchBttn |
 
-    And Click on the element in Dialogcontent
-      |editButton|
+    And Click the edit button
 
     And user sending the keys in Dialogcontent
-      |nameInput| alperistanlıyok |
+      | nameInput | alperistanliyok |
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |

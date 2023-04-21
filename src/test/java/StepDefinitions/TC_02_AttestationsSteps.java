@@ -10,6 +10,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
 public class TC_02_AttestationsSteps {
@@ -88,5 +90,7 @@ public class TC_02_AttestationsSteps {
     public void alreadyExistMessageShouldBeDisplayed() {
         dc.verifyContainsTextFunction(dc.alreadyExist,"already");
     }
+
 }
+
 
