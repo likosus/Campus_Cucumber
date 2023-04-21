@@ -16,17 +16,14 @@ Feature: Discounts
     Then Click on the element in Dialogcontent
       | addButton |
 
-
-
     And user sending the keys in Dialogcontent
       | description     | deva1 |
-      | integrationCode | 1234  |
-      | priority        | 4321  |
+      | integrationCode | 11111 |
+      | priority        | 11111 |
 
 
     When Click TAP and return main
 
-    #burda  clic sikintisi var extra  clic gerek
 
     And Click on the element in Dialogcontent
       | saveButton |
@@ -43,8 +40,8 @@ Feature: Discounts
 
     When user sending the keys in Dialogcontent
       | description     | deva1 |
-      | integrationCode | 1234  |
-      | priority        | 4321  |
+      | integrationCode | 11111 |
+      | priority        | 11111 |
 
     When Click TAP and return main
 

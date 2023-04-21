@@ -14,8 +14,8 @@ Feature: Attestations functionality
 
   Scenario:Delete Attestations
 
- Then user Delete item in Dialogcontent
-   | violette13|
+    Then user Delete item in Dialogcontent
+      | violette27 |
 
     Then Success message should be displayed
 
@@ -24,11 +24,11 @@ Feature: Attestations functionality
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput| violette13|
+      | searchInput | violette27 |
 
 
     And Click on the element in Dialogcontent
-      |searchBttn|
+      | searchBttn |
 
 
     Then is no data message should be displayed

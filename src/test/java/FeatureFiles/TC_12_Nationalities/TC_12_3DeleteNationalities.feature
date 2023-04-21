@@ -15,7 +15,7 @@ Feature:
   Scenario:Delete Nationalities
 
     Then user Delete item in Dialogcontent
-      | alperistanlıyok|
+      | alperistanliyok |
 
     Then Success message should be displayed
 
@@ -24,7 +24,7 @@ Feature:
 
 
     Then user sending the keys in Dialogcontent
-      |searchInput| alperistanlıyok|
+      |searchInput| alperistanliyok|
 
 
     And Click on the element in Dialogcontent

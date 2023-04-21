@@ -14,16 +14,16 @@ Feature: Attestations functionality
   Scenario: Edit Attestations
 
     And user sending the keys in Dialogcontent
-      |searchInput| violette17|
+      |searchInput| violette|
 
     And Click on the element in Dialogcontent
       |searchBttn|
 
-    And Click on the element in Dialogcontent
-      |rumeysaEdit|
+    And Click the edit button
+
 
     And user sending the keys in Dialogcontent
-      |nameInput| violette13|
+      |nameInput| violette27|
 
     And Click on the element in Dialogcontent
       |saveButton|

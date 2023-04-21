@@ -17,7 +17,7 @@ Feature:
       | addButton |
 
     And user sending the keys in Dialogcontent
-      |nameInput| alperistanlı|
+      |nameInput| alperistanli|
 
     And Click on the element in Dialogcontent
       |saveButton|
@@ -31,7 +31,7 @@ Feature:
       | addButton |
 
     When user sending the keys in Dialogcontent
-      | nameInput | alperistanlı |
+      | nameInput | alperistanli |
 
     And Click on the element in Dialogcontent
       | saveButton |

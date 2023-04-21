@@ -1,16 +1,17 @@
 Feature:
-Background:
-Given Navigate to Campus
-When Login username and Password and click login button
-Then User should login successfully
+
+  Background:
+    Given Navigate to Campus
+    When Login username and Password and click login button
+    Then User should login successfully
 
 
-  And Click on the element in leftNav
-    | setup |
-    | parameters     |
-    | documentTypes   |
+    And Click on the element in leftNav
+      | setup         |
+      | parameters    |
+      | documentTypes |
 
-Scenario: Add documentTypes
+  Scenario: Add documentTypes
     When Click on the element in Dialogcontent
 
       | addButton |
@@ -20,13 +21,13 @@ Scenario: Add documentTypes
 
     When Click on the element in Dialogcontent
 
-      | DTstage |
+      | DTstage       |
       | DTsecondstage |
 
-     When Click ESC and return main
+    When Click ESC and return main
 
 
-     When Click on the element in Dialogcontent
+    When Click on the element in Dialogcontent
       | saveButton |
 
 
