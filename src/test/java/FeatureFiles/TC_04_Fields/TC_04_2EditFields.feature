@@ -1,4 +1,4 @@
-Feature: HumanResource functionality
+Feature: Fields functionality
 
   Background:
 
@@ -7,22 +7,22 @@ Feature: HumanResource functionality
     Then User should login successfully
 
     And Click on the element in leftNav
-      | humanResources     |
-      | setupHuman         |
-      | positionCategories |
+      | setup         |
+      | parameters    |
+      | fields |
 
-  Scenario: Edit HumanResources
+  Scenario: Edit Fields
 
     And user sending the keys in Dialogcontent
-      | searchInput | teacher |
+      | searchInput | panter |
 
     And Click on the element in Dialogcontent
       | searchBttn |
 
-    And Click the edit button
+    And click the edit buttonBankAccounts
 
     And user sending the keys in Dialogcontent
-      | nameInput | manager |
+      | nameInput | panter01 |
 
     And Click on the element in Dialogcontent
       | saveButton |

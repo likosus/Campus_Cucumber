@@ -9,28 +9,26 @@ Feature:
     And Click on the element in leftNav
       | setup         |
       | parameters    |
-      | documentTypes |
+      | fields |
 
-  Scenario: Add documentTypes
+  Scenario: Add fields
     When Click on the element in Dialogcontent
 
       | addButton |
 
     When user sending the keys in Dialogcontent
-      | nameInput | Aci yok rocky |
+      | nameInput | panter |
+      | integrationCode | pnt01 |
 
     When Click on the element in Dialogcontent
 
-      | DTstage       |
-      | DTsecondstage |
-
-    When Click ESC and return main
-
+      | codeFields  |
+      | integerClick|
 
     When Click on the element in Dialogcontent
       | saveButton |
 
-
+    Then Success message should be displayed
 
 
 

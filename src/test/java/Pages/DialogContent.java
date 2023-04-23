@@ -164,6 +164,14 @@ public class DialogContent extends Parent{
     @FindBy(xpath="//span[text()=' Delete ']")
     public WebElement alperDelete2;
 
+    @FindBy(xpath="//span[text()='Text']")
+    public WebElement codeFields;
+
+    @FindBy(xpath="//span[text()=' Integer ']")
+    public WebElement integerClick;
+
+
+
 
 
 
@@ -222,6 +230,8 @@ public class DialogContent extends Parent{
             case"likosDelete" : return likosDelete;
             case"alperDelete" : return alperDelete;
             case"alperDelete2" : return alperDelete2;
+            case"codeFields":return codeFields;
+            case"integerClick":return integerClick;
 
         }
 
