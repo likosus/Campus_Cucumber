@@ -1,4 +1,4 @@
-Feature: Bank account functionality
+Feature: TC_09_DELETE
 
   Background:
     Given Navigate to Campus

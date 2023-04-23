@@ -1,4 +1,4 @@
-Feature: Subject Category
+Feature: TC_06_ADD
 
   Background:
 

@@ -1,4 +1,5 @@
-Feature: Bank account functionality
+Feature: TC_09_ADD
+
   Background:
     Given Navigate to Campus
     When Login username and Password and click login button

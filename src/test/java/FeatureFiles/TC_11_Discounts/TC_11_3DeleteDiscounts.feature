@@ -1,4 +1,4 @@
-Feature: Discounts
+Feature: TC_11_DELETE
 
   Background:
 

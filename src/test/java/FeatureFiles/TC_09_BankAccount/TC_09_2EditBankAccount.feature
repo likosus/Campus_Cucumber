@@ -1,4 +1,4 @@
-Feature: Bank account functionality
+Feature: TC_09_ADD
 
   Background:
     Given Navigate to Campus

@@ -1,4 +1,4 @@
-Feature: document type functionality
+Feature: TC_03_DELETE
 
   Background:
 

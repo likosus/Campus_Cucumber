@@ -1,4 +1,4 @@
-Feature: Attestations functionality
+Feature: TC_01_DELETE
 
   Background:
 

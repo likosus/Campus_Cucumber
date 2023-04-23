@@ -1,4 +1,4 @@
-Feature:
+Feature:TC_10_EDİT
 
   Background:
     Given Navigate to Campus
@@ -11,7 +11,7 @@ Feature:
       | parameters  |
       | gradeLevels |
 
-  Scenario:
+  Scenario: Grade Level feature
 
     When Click on the element in Dialogcontent
 
