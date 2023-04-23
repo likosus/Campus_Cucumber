@@ -95,6 +95,7 @@ public class LeftNav extends Parent{
             case "locations" : return locations;
             case "documentTypes" : return documentTypes;
             case"discounts":return discounts;
+            case"fields":return fields;
 
         }
 
