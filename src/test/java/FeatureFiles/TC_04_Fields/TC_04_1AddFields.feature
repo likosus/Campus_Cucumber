@@ -1,4 +1,4 @@
-Feature:
+Feature:TC_04_ADD
 
   Background:
     Given Navigate to Campus

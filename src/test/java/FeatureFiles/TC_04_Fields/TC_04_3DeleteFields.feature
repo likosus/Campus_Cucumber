@@ -1,4 +1,4 @@
-Feature: fields functionality
+Feature: TC_04_DELETE
 
   Background:
 

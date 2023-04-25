@@ -1,4 +1,4 @@
-Feature: TC_02_EDIT
+Feature: TC_01_EDİT
 
   Background:
 
@@ -7,23 +7,22 @@ Feature: TC_02_EDIT
     Then User should login successfully
 
     And Click on the element in leftNav
-      | humanResources |
-      | setupHuman     |
-      | attestations   |
+      | humanResources     |
+      | setupHuman         |
+      | positionCategories |
 
-  Scenario: Edit Attestations
+  Scenario: Edit HumanResources
 
     And user sending the keys in Dialogcontent
-      |searchInput| violette|
+      | searchInput | teacher |
 
     And Click on the element in Dialogcontent
-      |searchBttn|
+      | searchBttn |
 
     And Click the edit button
 
-
     And user sending the keys in Dialogcontent
-      |nameInput| violette27|
+      | nameInput | manager |
 
     And Click on the element in Dialogcontent
-      |saveButton|
+      | saveButton |

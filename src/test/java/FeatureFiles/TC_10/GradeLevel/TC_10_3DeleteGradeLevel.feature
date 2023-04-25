@@ -1,4 +1,4 @@
-Feature: grade level functionality
+Feature: TC_10_DELETE
 
   Background:
 

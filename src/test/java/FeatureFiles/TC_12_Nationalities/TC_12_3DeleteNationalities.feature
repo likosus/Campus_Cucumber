@@ -1,4 +1,4 @@
-Feature:
+Feature:TC_12_DELETE
 
   Background:
 

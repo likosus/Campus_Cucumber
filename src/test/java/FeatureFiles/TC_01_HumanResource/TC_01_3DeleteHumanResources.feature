@@ -1,4 +1,4 @@
-Feature: TC_06_DELETE
+Feature: TC_01_DELETE
 
   Background:
 
@@ -7,23 +7,24 @@ Feature: TC_06_DELETE
     Then User should login successfully
 
     And Click on the element in leftNav
-      | education         |
-      | educationSetup    |
-      | subjectCategories |
+      | humanResources     |
+      | setupHuman         |
+      | positionCategories |
 
 
-  Scenario:Delete subjectCategories
+  Scenario:Delete HumanResources
 
     Then user Delete item in Dialogcontent
-      | fatihSultan |
+      | manager |
 
     Then Success message should be displayed
+
 
   Scenario: Negative test
 
 
     Then user sending the keys in Dialogcontent
-      | searchInput | fatihSultan |
+      | searchInput | manager |
 
 
     And Click on the element in Dialogcontent
@@ -31,5 +32,3 @@ Feature: TC_06_DELETE
 
 
     Then is no data message should be displayed
-
-

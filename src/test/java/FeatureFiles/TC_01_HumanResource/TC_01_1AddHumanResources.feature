@@ -1,4 +1,4 @@
-Feature:TC_08_ADD
+Feature: TC_01_ADD
 
   Background:
 
@@ -6,20 +6,18 @@ Feature:TC_08_ADD
     When Login username and Password and click login button
     Then User should login successfully
 
-
     And Click on the element in leftNav
-      | setup       |
-      | schoolSetup |
-      | departments |
+      | humanResources     |
+      | setupHuman         |
+      | positionCategories |
 
-  Scenario:Add  schoolSetup
+  Scenario:Add  HumanResources
     Then Click on the element in Dialogcontent
       | addButton |
 
 
     And user sending the keys in Dialogcontent
-      | nameInput | economy |
-      | codeInput | 055   |
+      | nameInput | teacher |
 
     And Click on the element in Dialogcontent
       | saveButton |
@@ -33,18 +31,12 @@ Feature:TC_08_ADD
       | addButton |
 
     When user sending the keys in Dialogcontent
-      | nameInput | economy |
-      | codeInput | 055   |
+      | nameInput | teacher |
 
     And Click on the element in Dialogcontent
       | saveButton |
 
-    Then deletedKadir
-
-
-
-
-
+    Then Already exist message should be displayed
 
 
 

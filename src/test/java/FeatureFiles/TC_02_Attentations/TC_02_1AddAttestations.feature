@@ -1,4 +1,4 @@
-Feature: Attestations functionality
+Feature: TC_02_ADD
 
   Background:
 
